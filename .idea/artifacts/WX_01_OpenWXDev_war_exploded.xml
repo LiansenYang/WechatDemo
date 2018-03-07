@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WX_01_OpenWXDev:war exploded">
+    <output-path>$PROJECT_DIR$/WX_01_OpenWXDev/target/WX_01_OpenWXDev</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WX_01_OpenWXDev" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/WX_01_OpenWXDev/target/WX_01_OpenWXDev/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="WX_01_OpenWXDev/web/Web" />
+    </root>
+  </artifact>
+</component>

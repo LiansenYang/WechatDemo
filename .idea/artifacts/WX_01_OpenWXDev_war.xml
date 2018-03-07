@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WX_01_OpenWXDev:war">
+    <output-path>$PROJECT_DIR$/WX_01_OpenWXDev/target</output-path>
+    <root id="archive" name="WX_01_OpenWXDev.war">
+      <element id="artifact" artifact-name="WX_01_OpenWXDev:war exploded" />
+    </root>
+  </artifact>
+</component>

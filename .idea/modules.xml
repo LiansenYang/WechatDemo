@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WX_01_OpenWXDev/WX_01_OpenWXDev.iml" filepath="$PROJECT_DIR$/WX_01_OpenWXDev/WX_01_OpenWXDev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WX_02_GetAccess_token/WX_02_GetAccess_token.iml" filepath="$PROJECT_DIR$/WX_02_GetAccess_token/WX_02_GetAccess_token.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WechatDemo.iml" filepath="$PROJECT_DIR$/WechatDemo.iml" />
+    </modules>
+  </component>
+</project>
