@@ -11,13 +11,14 @@
     <name>WX_01::服务器验证，开启开发模式</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>jsp-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
         </dependency>
     </dependencies>
     <build>

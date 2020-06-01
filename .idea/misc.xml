@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/WX_01_OpenWXDev" />
+    <file type="web" url="file://$PROJECT_DIR$/WX_04_Message" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

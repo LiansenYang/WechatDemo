@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WX_01_OpenWXDev/WX_01_OpenWXDev.iml" filepath="$PROJECT_DIR$/WX_01_OpenWXDev/WX_01_OpenWXDev.iml" />
       <module fileurl="file://$PROJECT_DIR$/WX_02_GetAccess_token/WX_02_GetAccess_token.iml" filepath="$PROJECT_DIR$/WX_02_GetAccess_token/WX_02_GetAccess_token.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WX_03_Custom_menu/WX_03_Custom_menu.iml" filepath="$PROJECT_DIR$/WX_03_Custom_menu/WX_03_Custom_menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WX_04_Message/WX_04_Message.iml" filepath="$PROJECT_DIR$/WX_04_Message/WX_04_Message.iml" />
       <module fileurl="file://$PROJECT_DIR$/WechatDemo.iml" filepath="$PROJECT_DIR$/WechatDemo.iml" />
     </modules>
   </component>

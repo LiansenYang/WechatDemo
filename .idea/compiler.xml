@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="WX_01_OpenWXDev" />
         <module name="WX_02_GetAccess_token" />
+        <module name="WX_03_Custom_menu" />
+        <module name="WX_04_Message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="WechatDemo" target="1.5" />
       <module name="WX_01_OpenWXDev" target="1.5" />
       <module name="WX_02_GetAccess_token" target="1.5" />
+      <module name="WX_03_Custom_menu" target="1.5" />
+      <module name="WX_04_Message" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

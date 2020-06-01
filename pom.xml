@@ -11,23 +11,28 @@
     <modules>
         <module>WX_01_OpenWXDev</module>
         <module>WX_02_GetAccess_token</module>
+        <module>WX_03_Custom_menu</module>
+        <module>WX_04_Message</module>
     </modules>
 
     <properties>
-        <servlet.version>3.1.0</servlet.version>
         <springframework.version>4.0.0.RELEASE</springframework.version>
         <junit.version>4.7</junit.version>
         <commons-logging.version>1.2</commons-logging.version>
-        <servlet.version>2.4</servlet.version>
+        <servlet.version>3.1.0</servlet.version>
+        <json.version>1.2.13</json.version>
+        <dom4j.version>1.6.1</dom4j.version>
     </properties>
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${servlet.version}</version>
                 <scope>provided</scope>
             </dependency>
+
             <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
             <dependency>
                 <groupId>javax.servlet.jsp</groupId>
@@ -132,13 +137,21 @@
                 <artifactId>commons-logging</artifactId>
                 <version>${commons-logging.version}</version>
             </dependency>
-
+            <!-- json jar包 -->
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>${servlet.version}</version>
-                <scope>provided</scope>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${json.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+            <dependency>
+                <groupId>dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>${dom4j.version}</version>
+            </dependency>
+
+
 
 
         </dependencies>

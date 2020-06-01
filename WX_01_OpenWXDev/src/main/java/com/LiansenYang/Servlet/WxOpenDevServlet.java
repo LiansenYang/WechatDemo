@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name="WxOpenDev",urlPatterns="/WxOpenDevServlet")
+@WebServlet(name="WxOpenDev",urlPatterns="/WechatServlet")
 public class WxOpenDevServlet extends HttpServlet {
 
     //token的值是微信中自己填写的，这里的值要和微信中填写的token值一致
-    private String token="123456";
+    private String token="123456红薯淀粉告诉对方";
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
